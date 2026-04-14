@@ -27,8 +27,12 @@ Thumbs.db
 *.log
 logs/
 data/local/
+src/data/
 *.db
 *.sqlite
+
+# npm lock (keep package-lock.json for reproducible installs)
+# package-lock.json
 
 # Test / coverage
 .coverage
